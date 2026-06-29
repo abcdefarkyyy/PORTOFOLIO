@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portofolio</title>
+    <title>Portofolio Saya</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -12,20 +12,9 @@
     <!-- Container Utama -->
     <div class="min-h-screen flex flex-col justify-between">
         
-        <!-- Header Minimalis -->
-        <header class="w-full max-w-3xl mx-auto px-4 py-6 text-center border-b border-gray-800">
-            <h1 class="text-2xl font-bold tracking-tight text-white sm:text-3xl">My Portfolio</h1>
-            <p class="mt-2 text-sm text-gray-400">Scroll for full image</p>
-        </header>
-
-        <!-- Area Foto Panjang -->
-        <main class="flex-grow flex justify-center py-8 px-4">
-            <div class="w-full max-w-3xl bg-gray-800 p-2 rounded-xl shadow-2xl border border-gray-700">
-                <!-- 
-                  Ganti "portfolio-panjang.jpg" di bawah ini dengan nama file fotomu.
-                  - h-auto: menjaga rasio foto agar tidak gepeng.
-                  - w-full: membuat lebar foto mengikuti lebar container (maksimal 3xl / sekitar 768px).
-                -->
+        <!-- Area Foto Panjang (Header sudah dihapus) -->
+        <main class="flex-grow flex justify-center pt-12 pb-8 px-4">
+            <div class="w-full max-w-7xl bg-gray-800 p-2 rounded-xl shadow-2xl border border-gray-700">
                 <img 
                     src="Portofolio.png" 
                     alt="Detail Portofolio" 
@@ -36,7 +25,41 @@
         </main>
 
         <!-- Footer -->
-        <footer class="w-full max-w-3xl mx-auto px-4 py-6 text-center border-t border-gray-800 text-xs text-gray-500">
+        <footer class="w-full max-w-7xl mx-auto px-4 py-6 text-center border-t border-gray-800 text-xs text-gray-500">
+            &copy; 2026.
+        </footer>
+
+    </div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Container Utama -->
+    <div class="min-h-screen flex flex-col justify-between">
+        
+        <!-- Area Foto Panjang (Header sudah dihapus) -->
+        <main class="flex-grow flex justify-center pt-12 pb-8 px-4">
+            <div class="w-full max-w-7xl bg-gray-800 p-2 rounded-xl shadow-2xl border border-gray-700">
+                <img 
+                    src="Portofolio.png" 
+                    alt="Detail Portofolio" 
+                    class="w-full h-auto rounded-lg shadow-inner block"
+                    loading="lazy"
+                >
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="w-full max-w-7xl mx-auto px-4 py-6 text-center border-t border-gray-800 text-xs text-gray-500">
             &copy; 2026.
         </footer>
 
